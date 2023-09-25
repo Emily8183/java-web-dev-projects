@@ -1,5 +1,7 @@
 package org.launchcode;
 
-public class TemperatureException {
-    // Write code here!
+public class TemperatureExceptio extends Exception{
+    public TemperatureExceptio(String message) {
+        super(message);
+    }
 }
